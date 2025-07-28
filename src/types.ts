@@ -12,7 +12,7 @@ export type Repository = {
   forkCount: number;
   url: string;
   languages: {
-    edges: LanguageEdge;
+    edges: LanguageEdge[];
   };
 };
 
