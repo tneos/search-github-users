@@ -24,7 +24,6 @@ const SearchForm = ({userName, setUserName}: SearchFormProps) => {
     setUserName(text);
   };
 
-  console.log(userName, setUserName);
   return (
     <form onSubmit={handleSearch} className="flex items-center gap-x-2 w-full lg:w-1/3 mb-8">
       <Label htmlFor="search" className="sr-only">
